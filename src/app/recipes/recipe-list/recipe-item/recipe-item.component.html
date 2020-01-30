@@ -1,0 +1,11 @@
+<li (click)="onSelect()" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+        <div>
+            <h6>{{recipe.name}}</h6>
+            <p>{{recipe.description}}</p>
+        </div>
+        <div>
+            <img [src]="recipe.imageUrl" [alt]="recipe.name" style="height:50px;">
+        </div>
+    </div>
+</li>
